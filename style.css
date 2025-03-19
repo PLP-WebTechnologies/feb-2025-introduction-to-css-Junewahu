@@ -1,0 +1,108 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Element Selector */
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #4CAF50;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Class Selector */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* ID Selector */
+  #multimedia {
+    margin-bottom: 20px;
+  }
+  
+  #multimedia audio,
+  #multimedia video {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  #registration {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  #registration input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #registration button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #registration button:hover {
+    background-color: #45a049;
+  }
+  
+  #image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: 5px solid #4CAF50;
+    border-radius: 10px;
+  }
+  
+  #table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  #table th,
+  #table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #list ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  #list li {
+    margin-bottom: 5px;
+  }
